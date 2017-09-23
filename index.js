@@ -35,8 +35,7 @@ var linePosition = line.length;
 if(linePosition == 0) {
   return "The line is currently empty."
 }
-  for(var i = 1; i < line.length; i++){
-
+  for(var i = 0; i < line.length-1; i++){
   return `The line is currently: ${i}. ${line[i - 1]}`
 }
 
