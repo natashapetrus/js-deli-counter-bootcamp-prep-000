@@ -36,8 +36,8 @@ if(linePosition == 0) {
   return "The line is currently empty."
 }
 var string = "The line is currently: "
-for (var i = 1; i < line.length-1; i++){
-  string = string + `${i}. ${line[i - 1]}`
+for (var i = 1; i < line.length; i++){
+  string = string + `${i}. ${line[i - 1]}, `;
 }
 return string
 }
